@@ -110,9 +110,6 @@ const TodoList = () => {
   return (
     <Container className="py-4">
       <Row className="mb-4">
-        <Col>
-          <h1>Todo List</h1>
-        </Col>
         <Col xs="auto">
           <Button variant="primary" onClick={() => setShowAddModal(true)}>
             Add New Todo
