@@ -15,7 +15,7 @@ const Header = () => {
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand to="/" as={NavLink} className="fw-bold">
-            Todo Lists
+            Task Management App
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
